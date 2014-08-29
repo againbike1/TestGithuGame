@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24871BF519B05AED004279AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24871BF419B05AED004279AA /* Foundation.framework */; };
+		24871BF719B05AED004279AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24871BF619B05AED004279AA /* CoreGraphics.framework */; };
+		24871BF919B05AED004279AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24871BF819B05AED004279AA /* UIKit.framework */; };
+		24871BFB19B05AED004279AA /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24871BFA19B05AED004279AA /* SpriteKit.framework */; };
+		24871C0119B05AED004279AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24871BFF19B05AED004279AA /* InfoPlist.strings */; };
+		24871C0319B05AED004279AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24871C0219B05AED004279AA /* main.m */; };
+		24871C0719B05AED004279AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24871C0619B05AED004279AA /* AppDelegate.m */; };
+		24871C0A19B05AED004279AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24871C0819B05AED004279AA /* Main.storyboard */; };
+		24871C0D19B05AED004279AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24871C0C19B05AED004279AA /* ViewController.m */; };
+		24871C1019B05AED004279AA /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 24871C0F19B05AED004279AA /* MyScene.m */; };
+		24871C1219B05AED004279AA /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 24871C1119B05AED004279AA /* Spaceship.png */; };
+		24871C1419B05AED004279AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24871C1319B05AED004279AA /* Images.xcassets */; };
+		24871C1B19B05AED004279AA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24871C1A19B05AED004279AA /* XCTest.framework */; };
+		24871C1C19B05AED004279AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24871BF419B05AED004279AA /* Foundation.framework */; };
+		24871C1D19B05AED004279AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24871BF819B05AED004279AA /* UIKit.framework */; };
+		24871C2519B05AED004279AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24871C2319B05AED004279AA /* InfoPlist.strings */; };
+		24871C2719B05AED004279AA /* GithGameTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24871C2619B05AED004279AA /* GithGameTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24871C1E19B05AED004279AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24871BE919B05AED004279AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24871BF019B05AED004279AA;
+			remoteInfo = GithGameTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24871BF119B05AED004279AA /* GithGameTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithGameTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24871BF419B05AED004279AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		24871BF619B05AED004279AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		24871BF819B05AED004279AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		24871BFA19B05AED004279AA /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		24871BFE19B05AED004279AA /* GithGameTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GithGameTest-Info.plist"; sourceTree = "<group>"; };
+		24871C0019B05AED004279AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24871C0219B05AED004279AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24871C0419B05AED004279AA /* GithGameTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GithGameTest-Prefix.pch"; sourceTree = "<group>"; };
+		24871C0519B05AED004279AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		24871C0619B05AED004279AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		24871C0919B05AED004279AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24871C0B19B05AED004279AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		24871C0C19B05AED004279AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		24871C0E19B05AED004279AA /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		24871C0F19B05AED004279AA /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		24871C1119B05AED004279AA /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		24871C1319B05AED004279AA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		24871C1919B05AED004279AA /* GithGameTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithGameTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24871C1A19B05AED004279AA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		24871C2219B05AED004279AA /* GithGameTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GithGameTestTests-Info.plist"; sourceTree = "<group>"; };
+		24871C2419B05AED004279AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24871C2619B05AED004279AA /* GithGameTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GithGameTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24871BEE19B05AED004279AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24871BF719B05AED004279AA /* CoreGraphics.framework in Frameworks */,
+				24871BF919B05AED004279AA /* UIKit.framework in Frameworks */,
+				24871BFB19B05AED004279AA /* SpriteKit.framework in Frameworks */,
+				24871BF519B05AED004279AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24871C1619B05AED004279AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24871C1B19B05AED004279AA /* XCTest.framework in Frameworks */,
+				24871C1D19B05AED004279AA /* UIKit.framework in Frameworks */,
+				24871C1C19B05AED004279AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24871BE819B05AED004279AA = {
+			isa = PBXGroup;
+			children = (
+				24871BFC19B05AED004279AA /* GithGameTest */,
+				24871C2019B05AED004279AA /* GithGameTestTests */,
+				24871BF319B05AED004279AA /* Frameworks */,
+				24871BF219B05AED004279AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24871BF219B05AED004279AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24871BF119B05AED004279AA /* GithGameTest.app */,
+				24871C1919B05AED004279AA /* GithGameTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24871BF319B05AED004279AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24871BF419B05AED004279AA /* Foundation.framework */,
+				24871BF619B05AED004279AA /* CoreGraphics.framework */,
+				24871BF819B05AED004279AA /* UIKit.framework */,
+				24871BFA19B05AED004279AA /* SpriteKit.framework */,
+				24871C1A19B05AED004279AA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24871BFC19B05AED004279AA /* GithGameTest */ = {
+			isa = PBXGroup;
+			children = (
+				24871C0519B05AED004279AA /* AppDelegate.h */,
+				24871C0619B05AED004279AA /* AppDelegate.m */,
+				24871C0819B05AED004279AA /* Main.storyboard */,
+				24871C0B19B05AED004279AA /* ViewController.h */,
+				24871C0C19B05AED004279AA /* ViewController.m */,
+				24871C0E19B05AED004279AA /* MyScene.h */,
+				24871C0F19B05AED004279AA /* MyScene.m */,
+				24871C1119B05AED004279AA /* Spaceship.png */,
+				24871C1319B05AED004279AA /* Images.xcassets */,
+				24871BFD19B05AED004279AA /* Supporting Files */,
+			);
+			path = GithGameTest;
+			sourceTree = "<group>";
+		};
+		24871BFD19B05AED004279AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24871BFE19B05AED004279AA /* GithGameTest-Info.plist */,
+				24871BFF19B05AED004279AA /* InfoPlist.strings */,
+				24871C0219B05AED004279AA /* main.m */,
+				24871C0419B05AED004279AA /* GithGameTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24871C2019B05AED004279AA /* GithGameTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				24871C2619B05AED004279AA /* GithGameTestTests.m */,
+				24871C2119B05AED004279AA /* Supporting Files */,
+			);
+			path = GithGameTestTests;
+			sourceTree = "<group>";
+		};
+		24871C2119B05AED004279AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24871C2219B05AED004279AA /* GithGameTestTests-Info.plist */,
+				24871C2319B05AED004279AA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24871BF019B05AED004279AA /* GithGameTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24871C2A19B05AEE004279AA /* Build configuration list for PBXNativeTarget "GithGameTest" */;
+			buildPhases = (
+				24871BED19B05AED004279AA /* Sources */,
+				24871BEE19B05AED004279AA /* Frameworks */,
+				24871BEF19B05AED004279AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GithGameTest;
+			productName = GithGameTest;
+			productReference = 24871BF119B05AED004279AA /* GithGameTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24871C1819B05AED004279AA /* GithGameTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24871C2D19B05AEE004279AA /* Build configuration list for PBXNativeTarget "GithGameTestTests" */;
+			buildPhases = (
+				24871C1519B05AED004279AA /* Sources */,
+				24871C1619B05AED004279AA /* Frameworks */,
+				24871C1719B05AED004279AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24871C1F19B05AED004279AA /* PBXTargetDependency */,
+			);
+			name = GithGameTestTests;
+			productName = GithGameTestTests;
+			productReference = 24871C1919B05AED004279AA /* GithGameTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24871BE919B05AED004279AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "flx flx";
+				TargetAttributes = {
+					24871C1819B05AED004279AA = {
+						TestTargetID = 24871BF019B05AED004279AA;
+					};
+				};
+			};
+			buildConfigurationList = 24871BEC19B05AED004279AA /* Build configuration list for PBXProject "GithGameTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24871BE819B05AED004279AA;
+			productRefGroup = 24871BF219B05AED004279AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24871BF019B05AED004279AA /* GithGameTest */,
+				24871C1819B05AED004279AA /* GithGameTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24871BEF19B05AED004279AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24871C0119B05AED004279AA /* InfoPlist.strings in Resources */,
+				24871C1419B05AED004279AA /* Images.xcassets in Resources */,
+				24871C1219B05AED004279AA /* Spaceship.png in Resources */,
+				24871C0A19B05AED004279AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24871C1719B05AED004279AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24871C2519B05AED004279AA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24871BED19B05AED004279AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24871C1019B05AED004279AA /* MyScene.m in Sources */,
+				24871C0D19B05AED004279AA /* ViewController.m in Sources */,
+				24871C0719B05AED004279AA /* AppDelegate.m in Sources */,
+				24871C0319B05AED004279AA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24871C1519B05AED004279AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24871C2719B05AED004279AA /* GithGameTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24871C1F19B05AED004279AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24871BF019B05AED004279AA /* GithGameTest */;
+			targetProxy = 24871C1E19B05AED004279AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24871BFF19B05AED004279AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24871C0019B05AED004279AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		24871C0819B05AED004279AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24871C0919B05AED004279AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24871C2319B05AED004279AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24871C2419B05AED004279AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24871C2819B05AEE004279AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		24871C2919B05AEE004279AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24871C2B19B05AEE004279AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GithGameTest/GithGameTest-Prefix.pch";
+				INFOPLIST_FILE = "GithGameTest/GithGameTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		24871C2C19B05AEE004279AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GithGameTest/GithGameTest-Prefix.pch";
+				INFOPLIST_FILE = "GithGameTest/GithGameTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		24871C2E19B05AEE004279AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GithGameTest.app/GithGameTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GithGameTest/GithGameTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GithGameTestTests/GithGameTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		24871C2F19B05AEE004279AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GithGameTest.app/GithGameTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GithGameTest/GithGameTest-Prefix.pch";
+				INFOPLIST_FILE = "GithGameTestTests/GithGameTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24871BEC19B05AED004279AA /* Build configuration list for PBXProject "GithGameTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24871C2819B05AEE004279AA /* Debug */,
+				24871C2919B05AEE004279AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24871C2A19B05AEE004279AA /* Build configuration list for PBXNativeTarget "GithGameTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24871C2B19B05AEE004279AA /* Debug */,
+				24871C2C19B05AEE004279AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		24871C2D19B05AEE004279AA /* Build configuration list for PBXNativeTarget "GithGameTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24871C2E19B05AEE004279AA /* Debug */,
+				24871C2F19B05AEE004279AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24871BE919B05AED004279AA /* Project object */;
+}
